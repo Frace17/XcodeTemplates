@@ -15,7 +15,7 @@ final class ___VARIABLE_productName:identifier___Assembly: Assembly {
     
     func assemble(container: Container) {
         container.register(I___VARIABLE_productName:identifier___Wireframe.self) { (_, view: IBaseView) -> I___VARIABLE_productName:identifier___Wireframe in
-            ReferencesMainWireframe(router: AppRouter.shared, rootView: view)
+        ___VARIABLE_productName:identifier___Wireframe(router: AppRouter.shared, rootView: view)
         }
         
         container.register(I___VARIABLE_productName:identifier___Presenter.self) { (r, view: I___VARIABLE_productName:identifier___View) in
