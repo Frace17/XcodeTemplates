@@ -7,7 +7,7 @@
 2. Execute command to open template section folder in Finder
 ```open ~/Library/Developer/Xcode/Templates/File\Templates/```
 3. Clone the repository
-4. Copy and paste files from 'File Templates' folder to your recently created folder
+4. Copy and paste files from ```File Templates``` folder to your recently created folder
 
 
 ## Use
@@ -16,7 +16,7 @@
 3. Scroll down till you see ```MVP``` template and choose it.
 4. Set a name for your module. Examples: ```Home, Auth, SignIn```
 5. Choose Content Type (Standard - common ViewController, or ScrollView - ViewController with scrollview setup)
-6. Make checkmark under 'Also create a repository' if you need new repository (data layer)
+6. Make checkmark under ```Also create a repository``` if you need new repository (data layer)
 
 
 ## Note
