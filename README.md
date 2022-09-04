@@ -7,7 +7,7 @@
 2. Execute command to open template section folder in Finder
 ```open ~/Library/Developer/Xcode/Templates/File\Templates/```
 3. Clone the repository
-4. Copy and paste the files from 'File Templates' folder in your recently created folder
+4. Copy and paste files from 'File Templates' folder to your recently created folder
 
 
 ## Use
