@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Module name:</string>
+			<key>Description</key>
+			<string>The name of the MVP Module</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>MVPModule</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>viewType</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Type:</string>
+			<key>Description</key>
+			<string>The type of Module to use</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>Standard</string>
+			<key>Values</key>
+			<array>
+				<string>Standard</string>
+				<string>ScrollView</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>WithRepository</string>
+			<key>Name</key>
+			<string>Also create a repository</string>
+			<key>Description</key>
+			<string>Create a repository file with the same name</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>viewType</key>
+				<array>
+				<string>Standard</string>
+				<string>ScrollView</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
